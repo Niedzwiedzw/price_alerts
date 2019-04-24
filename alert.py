@@ -28,7 +28,7 @@ from time import sleep
 from win32api import MessageBox
 from dbfread import DBF
 
-DIRECTORY = r'C:\Users\inter\Documents'
+from directory import DIRECTORY
 PROJECT_DIR = os.path.dirname(os.path.realpath(__file__))
 HASH_DIR = os.path.join(PROJECT_DIR, 'hashes')
 
